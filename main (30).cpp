@@ -5,7 +5,7 @@ int main()
 {
         char a;
         cin>>a;
-        if('9'>=a||'1'<=a){
+        if('9'>=a&&'1'<=a){
         cout<<"your char is number"; 
         }
         else{
