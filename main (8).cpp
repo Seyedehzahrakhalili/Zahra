@@ -8,8 +8,8 @@ int main()
         cin>>x1>>y1;
         cout<<"Please enter x2 & y2"<<endl;
         cin>>x2>>y2;
-        a=(x2-x1)/(y2-y1);
-        y2-y1!=0;
+        a=(y2-y1)/(x2-x1);
+        x2-x1!=0;
         b=y1-(a*x1);
         cout<<"y"<<"="<<a<<"*x+"<<b;
     return 0;
