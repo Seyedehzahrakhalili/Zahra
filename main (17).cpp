@@ -9,7 +9,8 @@ int main()
         z=a*i;
         if(z<=100){        
         cout<<i<<"×"<<a<<"="<<z<<"  ";
-        }
+        }else{
+          break;
         }        
     return 0;
 }
