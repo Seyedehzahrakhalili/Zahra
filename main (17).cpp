@@ -11,6 +11,7 @@ int main()
         cout<<i<<"×"<<a<<"="<<z<<"  ";
         }else{
           break;
+        }
         }        
     return 0;
 }
