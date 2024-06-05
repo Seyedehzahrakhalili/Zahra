@@ -7,7 +7,9 @@ int main()
         cin>>a;
         for(int i=1;i<=100;i++){
         z=a*i;
-        cout<<i<<"×"<<a<<"="<<z<<endl;
+        if(z<=100){        
+        cout<<i<<"×"<<a<<"="<<z<<"  ";
         }
+        }        
     return 0;
 }
